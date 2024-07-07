@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    >
+    <title>Currency Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+    </header>
+    <main>
+        <section class="container">
+            <section class="from">
+                <h2>Amount</h2>
+                <section class="input_from" id="input_from">
+                    <label for="from">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag" height="64" width="64">
+                        <select name="from" id="from">
+                        </select>
+                    </label>
+                    <input type="number" name="input" id="input">
+                </section>
+            </section>
+            <section class="border"></section>
+            <section class="arrow_icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></section>
+            <section class="to">
+                <h2>Converted amount</h2>
+                <section class="input_to" id="input_to">
+                    <label for="to">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag" height="64" width="64">
+                        <select name="to" id="to">
+                        </select>
+                    </label>
+                    <input type="number" name="display" id="display">
+                </section>
+            </section>
+        </section>
+        <section class="rate">
+            <h2>Indicative Exchange Rate</h2>
+            <p id="rate"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Project By Hanuman</p>
+    </footer>
+    <script src="/js/app.js"></script>
+</body>
+</html>
